@@ -1,0 +1,299 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+
+
+
+
+*,
+*::before,
+*::after {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   box-sizing: border-box;
+}
+
+li {
+   list-style: none;
+}
+
+a,
+a:visited {
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-weight: inherit;
+   font-size: inherit;
+}
+
+img {
+   vertical-align: top;
+}
+
+html,
+body {
+   height: 100%;
+}
+
+html {
+   font-size: 16px;
+   /* по умолчанию */
+}
+
+/* ======================================================== */
+
+.wrapper {
+   overflow: hidden;
+}
+
+.dog {
+   margin: 0 auto;
+   max-width: 1440px;
+}
+
+.dog__conteiner {
+   background: #F2726F;
+   margin: 0 auto;
+
+}
+
+.sed-perspiciatis {
+   padding: 50px 0 150px 0;
+   background: #F5F5F5;
+}
+
+.sed-perspiciatis__content {
+   max-width: 1180px;
+   padding: 20px;
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   gap: 26px;
+}
+
+.text {
+   display: flex;
+   flex-direction: column;
+   max-width: 640px;
+   padding: 20px;
+}
+
+.span {
+   padding: 0 0 0 32px;
+   background: url('../img/cards__content/logo-1.1.svg') 0 7px no-repeat, url('../img/cards__content/logo-1.2.svg') 3px 4px no-repeat;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 12px;
+   line-height: 24px;
+   align-items: center;
+   letter-spacing: 2.5px;
+   text-transform: uppercase;
+   color: #5D62B5;
+   margin-bottom: 33px;
+   animation-name: logo;
+   animation-duration: 5s;
+   animation-delay: 2s;
+   animation-fill-mode: both;
+}
+
+
+@keyframes logo {
+   0% {
+      background: url('../img/cards__content/logo-1.1.svg') 0 7px no-repeat, url('../img/cards__content/logo-1.2.svg') 3px 4px no-repeat;
+   }
+
+   100% {
+      background: url('../img/cards__content/logo-1.1.svg') 0 7px no-repeat, url('../img/cards__content/logo-1.2.svg') 220px 4px no-repeat;
+   }
+
+   0% {}
+}
+
+.name-content {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 900;
+   font-size: 36px;
+   line-height: 42px;
+   color: #000000;
+   margin-bottom: 42px;
+}
+
+.cards {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 24px;
+}
+
+.cards__content {
+   flex: 0 1 364px;
+   padding: 20px 20px 20px 106px;
+}
+
+.card-hover {
+   transition: 0.3s;
+}
+
+[class*=card-hover]:hover {
+   box-shadow: 0 3px 10px #bebebe;
+   transition: 0.3s;
+   border-radius: 10px;
+}
+
+
+.card-img-love {
+   background: url('../img/cards__content/dog_love_24x.svg') 20px 17px no-repeat;
+}
+
+.card-img-girl {
+   background: url('../img/cards__content/dog_vet_24x.svg') 20px 23px no-repeat;
+}
+
+.card-img-screen {
+   background: url('../img/cards__content/dog_stream_24x.svg') 20px 23px no-repeat;
+}
+
+.name-card {
+   margin-bottom: 20px;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 900;
+   font-size: 19px;
+   line-height: 26px;
+   color: #F2726F;
+}
+
+.paragraf-card {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   letter-spacing: 0.15px;
+   color: #4B4B4B;
+}
+
+/* ==================================== */
+
+.our-impact {
+   position: relative;
+   padding: 0px 0 100px 0;
+   background: #2AB1AD url('../img/cards__content/Blob.png') 90% 0 no-repeat;
+}
+
+.text-picture {
+   display: flex;
+   flex-wrap: wrap-reverse;
+   justify-content: space-between;
+   align-items: flex-start;
+   gap: 0px 110px;
+}
+
+.picture {
+   display: flex;
+   flex: 0 1 530px;
+   min-width: 200px;
+   margin: 0 auto;
+   transform: translate(0, -50%);
+}
+
+.img-dog-food {
+   flex: 0 1 530px;
+   min-width: 200px;
+   border-radius: 40px;
+}
+
+.our-impact__content {
+   max-width: 1180px;
+   padding: 20px;
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   gap: 55px;
+}
+
+.text-our-impact {
+   margin: 0 auto;
+   flex: 1 1 460px;
+}
+
+.span-our-impact {
+   background: url('../img/cards__content/logo-1.1-white.svg') 0 7px no-repeat, url('../img/cards__content/logo-1.2-white.svg') 3px 3.95px no-repeat;
+   color: #FFFFFF;
+   animation-name: logo-white;
+   animation-duration: 5s;
+   animation-delay: 2s;
+   animation-fill-mode: both;
+}
+
+@keyframes logo-white {
+   0% {
+      background: url('../img/cards__content/logo-1.1-white.svg') 0 7px no-repeat, url('../img/cards__content/logo-1.2-white.svg') 3px 3.95px no-repeat;
+   }
+
+   100% {
+      background: url('../img/cards__content/logo-1.1-white.svg') 0 7px no-repeat, url('../img/cards__content/logo-1.2-white.svg') 150px 3.95px no-repeat;
+   }
+
+   0% {}
+}
+
+
+.content-name-our-impact {
+   color: #FFFFFF;
+}
+
+.cadrs-our-impact {}
+
+.cards-content-our-impact {
+   flex: 0 1 267px;
+}
+
+.card-img-duck {
+   background: url('../img/cards__content/duck.svg') 20px 17px no-repeat;
+}
+
+.card-img-house {
+   background: url('../img/cards__content/house_24px.svg') 20px 17px no-repeat;
+}
+
+.card-img-retractable {
+   background: url('../img/cards__content/Retractable.svg') 20px 17px no-repeat;
+}
+
+.card-img-doog-food {
+   background: url('../img/cards__content/dog_food.svg') 20px 17px no-repeat;
+}
+
+.namber-card {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 900;
+   font-size: 36px;
+   line-height: 42px;
+   color: #FFFFFF;
+   margin-bottom: 3px;
+}
+
+.cards-paragraf-blue {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 24px;
+   letter-spacing: 0.15px;
+   color: #5D62B5;
+}
