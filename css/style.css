@@ -191,7 +191,7 @@ html {
    position: relative;
    padding: 100px 0 100px 0;
    background: #29C3BE url('../img/cards__content/Blob.png') 90% 0 no-repeat;
-   background-size: 720px 340px;
+   background-size: 720px 330px;
 }
 
 .our-impact__content {
@@ -210,7 +210,7 @@ html {
    flex-wrap: wrap-reverse;
    align-items: flex-start;
    gap: 0 110px;
-   margin-top: -200px;
+   margin-top: -175px;
 }
 
 .text-our-impact {
@@ -222,6 +222,7 @@ html {
    flex: 0 1 530px;
    min-width: 200px;
    margin: 0 auto;
+   transform: translate(0, -20px);
 }
 
 .img-dog-food {
