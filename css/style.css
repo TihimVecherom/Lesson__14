@@ -189,35 +189,14 @@ html {
 
 .our-impact {
    position: relative;
-   padding: 0px 0 100px 0;
-   background: #2AB1AD url('../img/cards__content/Blob.png') 90% 0 no-repeat;
-}
-
-.text-picture {
-   display: flex;
-   flex-wrap: wrap-reverse;
-   justify-content: space-between;
-   align-items: flex-start;
-   gap: 0px 110px;
-}
-
-.picture {
-   display: flex;
-   flex: 0 1 530px;
-   min-width: 200px;
-   margin: 0 auto;
-   transform: translate(0, -40%);
-}
-
-.img-dog-food {
-   flex: 0 1 530px;
-   min-width: 200px;
-   border-radius: 40px;
+   padding: 100px 0 100px 0;
+   background: #29C3BE url('../img/cards__content/Blob.png') 90% 0 no-repeat;
+   background-size: 720px 340px;
 }
 
 .our-impact__content {
    max-width: 1180px;
-   padding: 20px;
+   padding: 0px 20px 20px 20px;
    margin: 0 auto;
    display: flex;
    justify-content: center;
@@ -225,9 +204,31 @@ html {
    gap: 55px;
 }
 
+
+.text-picture {
+   display: inline-flex;
+   flex-wrap: wrap-reverse;
+   align-items: flex-start;
+   gap: 0 110px;
+   margin-top: -200px;
+}
+
 .text-our-impact {
+   max-width: 460px;
+}
+
+.picture {
+   display: flex;
+   flex: 0 1 530px;
+   min-width: 200px;
    margin: 0 auto;
-   flex: 1 1 460px;
+}
+
+.img-dog-food {
+   display: flex;
+   flex: 0 1 530px;
+   min-width: 200px;
+   border-radius: 40px;
 }
 
 .span-our-impact {
@@ -254,6 +255,7 @@ html {
 
 .content-name-our-impact {
    color: #FFFFFF;
+   margin-bottom: 0px;
 }
 
 .cadrs-our-impact {}
